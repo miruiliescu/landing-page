@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    
+    
+   
+}
+.header{
+    
+    border: 2px red solid;
+    height: 20px;
+    padding: 16px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+    
+    
+  
+    
+
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+    flex: 1;
+    
+}
+
+
+    
+
+.second-container {
+    border: pink 2px solid;
+    display: flex;
+    padding-left: 80px;
+    height: 191px;
+}
+    
+button {
+    padding: 6px 8px;
+}
