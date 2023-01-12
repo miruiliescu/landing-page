@@ -77,4 +77,31 @@ border: 2px blue solid;
     width:150px;
   }
 
+  .third-container{
+    display:flex;
+    height: 100px;
+    border: 2px purple solid;
+    margin-top: 20px;
+    padding: 40px;
+    justify-content: center;    
+    align-items: center;
+   
+    font-size: 22px;
+
+    
+  }
+
+    .small{
+    align-self:flex-end;
+  }
+
+    .fourth-container {
+        display: flex;
+        border: 2px solid yellow;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+
+    }
+ 
  
