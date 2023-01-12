@@ -32,6 +32,9 @@ a {
     
 }
 
+h1{
+    text-align: center;
+}
 
     
 
@@ -45,3 +48,33 @@ a {
 button {
     padding: 6px 8px;
 }
+.content{
+height: 300px;
+border: 2px blue solid;
+
+
+}
+.boxes {
+  
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    
+    
+  }
+  .item{
+    
+    border-radius: 10px;
+   
+   width:200px;
+   text-align:center;
+   align-content: center;
+  }
+
+  img {
+    height: 150px;
+    width:150px;
+  }
+
+ 
