@@ -11,13 +11,13 @@ body {
 
 .header{
     
-    border: 2px red solid;
+    
     height: 20px;
     padding: 16px;
     padding-left: 80px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 42px;
+    
     
     
   
@@ -34,7 +34,7 @@ ul{
 a {
     text-decoration: none;
     flex: 1;
-    
+    color: white;
 }
 
 h1{
@@ -44,15 +44,28 @@ h1{
     
 
 .second-container {
-    border: pink 2px solid;
-    display: flex;
-    padding-left: 80px;
-    height: 191px;
-}
     
-button {
-    padding: 6px 8px;
+    padding-left: 80px;
+    height: 300px;
+    flex-shrink: auto;
+    
 }
+
+.first-text{
+  margin-top: 40px;
+  font-size: 48px;
+  font-weight: bolder ;
+ 
+}
+
+
+.header,
+.second-container{
+background-color: #1F2937;
+color: white;
+}
+
+
 .content{
 height: 300px;
 border: 2px blue solid;
@@ -82,15 +95,16 @@ border: 2px blue solid;
     width:150px;
   }
 
+  
   .third-container{
-    display:flex;
+    
+    display: flex;
     height: 100px;
     border: 2px purple solid;
     margin-top: 20px;
-    padding: 40px;
+    padding: 80px;
     justify-content: center;    
     align-items: center;
-   
     font-size: 22px;
 
     
@@ -115,9 +129,9 @@ border: 2px blue solid;
 
  button{
   display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 600px;
+  justify-content: flex-start;
+  padding: 6px 8px;
+  
  }
 
  .footer{
