@@ -145,23 +145,36 @@ padding: 50px;
     align-self: flex-end;
   }
 
-    .fourth-container {
-        display: flex;
-        border: 2px solid yellow;
-        height: 150px;
-        justify-content: center;
-        align-items: center;
-        padding: 75px;
-    }
- .wrap{
+  .wrap{
+    display: flex;  
     width: 700px;
+    padding: 85px;
+    margin: 100px 550px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    
+      
  }
 
  button{
- 
-  padding: 6px 8px;
   
+  width: 90px;
+  padding: 6px 8px;
+  align-self: center;
+  margin-left: 100px;
+  border: 2px solid white;
+  color: white; 
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #3882F6;
  }
+
+.element {
+  font-size: 25px;
+}
 
  .footer{
   display: flex;
