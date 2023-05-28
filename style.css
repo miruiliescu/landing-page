@@ -45,24 +45,27 @@ h1{
 
 .second-container {
     display: flex;
-    flex-direction: row;
-   
-    padding-left: 80px;
+    padding-left: 180px;
     height: 350px;
     flex-shrink: auto;
     padding-top: 50px;
-    
+    gap: 200px;
     
 }
 
 
+
 .second-container > img{
   
-  padding-left: 50px;
+  
   padding-top: 45px;
   height: 180px;
   width: 350px;
- 
+  flex: 0;
+}
+
+button.continue {
+  margin-left: 0;
 }
 
 
@@ -74,7 +77,6 @@ h1{
   font-weight: bolder ;
  
 }
-
 
 .header,
 .second-container{
@@ -101,11 +103,11 @@ padding: 50px;
   }
   .item{
     
-    border-radius: 10px;
-   
-   width:200px;
-   text-align:center;
-   align-content: center;
+  border-radius: 10px;
+  flex: 0; 
+  width:200px;
+  text-align:center;
+  align-content: center;
   }
 
   .item > img {
@@ -122,7 +124,7 @@ padding: 50px;
     display: flex;
     flex-direction: column;
     height: 300px;
-    flex-shrink: 0;
+    min-width: 0px;
     background-color: #E5E7EB;
     padding: 80px;
     padding-left: 500px;
@@ -130,12 +132,16 @@ padding: 50px;
     justify-content: center;    
     align-items: center;
     font-size: 22px;
-   
+    flex: 0;
+    
   }
   .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    min-height: 0;
+    
+    
   }
 
 
@@ -143,6 +149,8 @@ padding: 50px;
     font-weight: bold;
     font-size: 25px;
     align-self: flex-end;
+    min-height: 0;
+   
   }
 
   .wrap{
@@ -158,6 +166,9 @@ padding: 50px;
     
       
  }
+
+
+
 
  button{
   
@@ -182,4 +193,9 @@ padding: 50px;
   align-items: center;
   padding: 25px;
   margin-top: auto;
+ }
+
+ .footer{
+  background-color: #1F2937;
+  color: white;
  }
